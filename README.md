@@ -53,7 +53,7 @@ I believe in:
 - GitHub: https://github.com/Lovekumar-10  
 - LinkedIn: https://www.linkedin.com/in/love-kumar96  
 - Instagram: https://www.instagram.com/love_kumar9654/  
-- WhatsApp: https://wa.me/9654662096  
+
 
 ---
 

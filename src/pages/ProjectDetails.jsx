@@ -7,6 +7,7 @@ import { FaGithub } from "react-icons/fa";
 import { HiArrowUpRight } from "react-icons/hi2";
 import { useEffect } from "react";
 
+
  
 
 const ProjectDetails = () => {

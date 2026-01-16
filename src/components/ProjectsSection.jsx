@@ -15,14 +15,14 @@ const ProjectsSection = () => {
         />
         <meta property="og:title" content="Love Kumar | Projects" />
         <meta property="og:description" content="Portfolio projects built with React, Node.js, MongoDB, and more." />
-        <meta property="og:image" content="/image.png" />
-        <meta property="og:url" content="https://github.com/Lovekumar-10/My-Portfolio/projects" />
+        <meta property="og:image" content="/images/image.png" />
+        <meta property="og:url" content="https://lovekumar.vercel.app/projects" />
         <meta property="og:type" content="website" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Love Kumar | Projects" />
         <meta name="twitter:description" content="Portfolio projects built with React, Node.js, MongoDB, and more." />
-        <meta name="twitter:image" content="/image.png" />
+        <meta name="twitter:image" content="/images/image.png" />
       </Helmet>
        <section
       id="projects"

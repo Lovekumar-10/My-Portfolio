@@ -130,8 +130,8 @@ const Contact = () => {
               </a>
             </div>
             <img
-              src="/src/assets/email-file.gif"
-              alt="email"
+              src="/images/email-file.gif"
+              alt="email-logo"
               className="h-16 w-16 sm:h-20 sm:w-20 object-contain shrink-0"
             />
           </div>

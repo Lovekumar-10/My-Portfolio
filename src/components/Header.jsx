@@ -75,7 +75,7 @@ const Header = () => {
           {/* Left: Logo */}
           <div className="flex items-center gap-3">
             <img
-              src="/src/assets/love.gif"
+              src="/images/love.gif"
               alt="logo"
               className="h-8 md:h-10 object-cover"
             />
@@ -105,7 +105,7 @@ const Header = () => {
             onClick={() => setOpen(!open)}
           >
             <img
-              src="/src/assets/menubar.gif"
+              src="/images/menubar.gif"
               alt="Menu"
               className="w-8 h-8 md:w-10 md:h-10 object-cover"
             />

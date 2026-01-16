@@ -2,7 +2,7 @@ export const projects = [
    {
     slug: "smart-search-engine",
     title: "Smart Search Engine",
-    image: "/src/assets/lovek.png",
+    image: "/images/lovek.png",
 
     // SHORT OVERVIEW (for card + intro)
     objective:
@@ -61,7 +61,7 @@ export const projects = [
   {
   slug: "EduGenieAI",
   title: "EduGenie AI Platform ",
-  image: "/src/assets/lovek.png",
+  image: "/images/lovek.png",
 
   // SHORT OVERVIEW
   objective:
@@ -119,7 +119,7 @@ export const projects = [
 {
   slug: "real-time-video",
   title: "Video Calling Website",
-  image: "/src/assets/lovek.png",
+  image: "/images/lovek.png",
 
   // SHORT OVERVIEW
   objective:
@@ -176,7 +176,7 @@ export const projects = [
 {
   slug: "photo-explorer",
   title: "Photo Explorer",
-  image: "/src/assets/lovek.png",
+  image: "/images/lovek.png",
 
   // SHORT OVERVIEW
   objective:
@@ -230,7 +230,7 @@ export const projects = [
 {
   slug: "dashboard-ui",
   title: "Dashboard UI",
-  image: "/src/assets/lovek.png",
+  image: "/images/lovek.png",
 
   // SHORT OVERVIEW
   objective:
@@ -278,7 +278,7 @@ export const projects = [
   {
   slug: "url-shortener",
   title: "URL Shortener",
-  image: "/src/assets/UrlShortner.png",
+  image: "/images/UrlShortner.png",
 
   // SHORT OVERVIEW (for card + intro)
   objective:
@@ -335,7 +335,7 @@ export const projects = [
 {
   slug: "basic-login-profile",
   title: "Basic Auth System",
-  image: "/src/assets/Login.png",
+  image: "/images/Login.png",
 
   // SHORT OVERVIEW
   objective:

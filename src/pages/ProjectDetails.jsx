@@ -29,8 +29,8 @@ const ProjectDetails = () => {
       <div className="inline-flex items-center gap-2 mb-8">
         <Link to="/projects">
           <img
-            src="/src/assets/Arrrow.png"
-            alt="Back"
+            src="/images/Arrrow.png"
+            alt="Back-icons"
             className="h-[5.3] w-14 object-cover"
           />
         </Link>

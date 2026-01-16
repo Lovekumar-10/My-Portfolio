@@ -91,8 +91,8 @@ export default function Hero() {
           >
             <img
               // src="/src/assets/Lovekumar1.png"
-              src="/src/assets/Lovek.png"
-              alt="Love Kumar"
+              src="/images/Lovek.png"
+              alt="Love-Kumar"
               className="w-full h-full object-cover rounded-[50%]"
             />
           </div>

@@ -45,7 +45,7 @@ export default function Footer() {
             </p>
 
             <a
-              href="mailto:hello@lovekumar.dev"
+              href="mailto:Lovekumar161129@gmail.com"
               className="inline-block text-lg font-semibold border-b-2 border-yellow-400 hover:text-yellow-400 transition"
             >
               Lovekumar161129@gmail.com

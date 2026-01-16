@@ -6,6 +6,7 @@ import { projects } from "../data/projects";
 import { FaGithub } from "react-icons/fa";
 import { HiArrowUpRight } from "react-icons/hi2";
 import { useEffect } from "react";
+import { FaRegHandPointLeft } from "react-icons/fa";
 
 
  
@@ -28,11 +29,8 @@ const ProjectDetails = () => {
       {/* Back */}
       <div className="inline-flex items-center gap-2 mb-8">
         <Link to="/projects">
-          <img
-            src="/images/Arrrow.png"
-            alt="Back-icons"
-            className="h-[5.3] w-14 object-cover"
-          />
+          <FaRegHandPointLeft  className="text-[25px]"/>
+          
         </Link>
         <h2 className="font-mono font-bold">Back To Projects</h2>
       </div>

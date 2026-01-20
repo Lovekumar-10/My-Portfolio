@@ -1,10 +1,99 @@
-
+import { useEffect } from "react";
+import gsap from "gsap";
 import theme from "../theme";
 import { useNavigate } from "react-router-dom";
 
-
 export default function Hero() {
   const navigate = useNavigate();
+
+  function splitLetters(text) {
+  return text.split("").map((char, i) => (
+    <span
+      key={i}
+      className="letter inline-block"
+      style={{ transformOrigin: "50% 100%" }}
+    >
+      {char === " " ? "\u00A0" : char}
+    </span>
+  ));
+}
+
+useEffect(() => {
+  const letters = document.querySelectorAll(".letter");
+
+  letters.forEach((letter) => {
+    let tl;
+
+    letter.addEventListener("mouseenter", () => {
+      if (tl) tl.kill();
+
+      gsap.set(letter, { color: randomColor() });
+
+      tl = gsap.timeline();
+
+      tl.to(letter, {
+        rotation: -16,
+        duration: 0.18,
+        ease: "power2.out",
+        transformOrigin: "50% 100%",
+      });
+
+      tl.to(letter, {
+        rotation: 14,
+        duration: 0.22,
+        ease: "sine.inOut",
+      });
+
+      tl.to(letter, {
+        rotation: -6,
+        duration: 0.25,
+        ease: "sine.inOut",
+      });
+
+      tl.to(letter, {
+        rotation: 0,
+        duration: 0.45,
+        ease: "elastic.out(1, 0.4)",
+      });
+
+      tl.to(letter, {
+        rotation: -7,
+        duration: 0.15,
+        ease: "sine.inOut",
+      });
+
+      tl.to(letter, {
+        rotation: 0,
+        duration: 1,
+        ease: "elastic.out(1, 0.4)",
+      });
+
+      tl.to(letter, {
+        color: "var(--text)",
+        duration: 0.3,
+      });
+    });
+  });
+}, []);
+
+
+
+
+function randomColor() {
+  const colors = [
+    "#FBBF24",
+    "#EF476F",
+    "#06D6A0",
+    "#118AB2",
+    "#8338EC",
+    "#FB5607",
+    "#FF9F1C",
+    "#2EC4B6",
+    "#3A86FF",
+    "#9B5DE5",
+  ];
+  return colors[Math.floor(Math.random() * colors.length)];
+}
 
   return (
     <section
@@ -26,11 +115,11 @@ export default function Hero() {
         {/* Left content */}
         <div className="text-center md:text-left">
           <h1
-            className={`${theme.fonts.heading} text-3xl sm:text-4xl md:text-6xl mb-4 leading-tight`}
+            className={` font-[Space_Grotesk]  text-3xl sm:text-4xl md:text-6xl lg:text-[100px] font-bold  mb-4 leading-tight`}
           >
-            Hi, I’m{" "}
+            {splitLetters("Hi, I’m ")}
             <span className={theme.colors.primaryText}>
-              Love Kumar
+            {splitLetters("Love Kumar")}
             </span>
           </h1>
 

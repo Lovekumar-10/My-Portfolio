@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import AboutSection from '../components/AboutSection';
 import ProjectsSection from '../components/ProjectsSection';
 import PracticalLearningJourney from '../components/PracticalLearningJourney';
+import CoolorsText from "../components/CoolorsText";
 
 export default function Home() {
   return (
@@ -34,6 +35,8 @@ export default function Home() {
       <AboutSection />
       <ProjectsSection />
       <PracticalLearningJourney />
+      <CoolorsText text="Scroll. Explore. Connect. Let’s build something awesome" />
+
     </>
   );
 }

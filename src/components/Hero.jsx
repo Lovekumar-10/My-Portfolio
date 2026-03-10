@@ -140,7 +140,7 @@ function randomColor() {
             </button>
 
             <button
-              className={`px-5 py-2 ${theme.colors.border} ${theme.colors.primaryText} ${theme.colors.shadow} ${theme.colors.activeShadow} font-bold`}
+              className={`px-5 cursor-pointer py-2 ${theme.colors.border} ${theme.colors.primaryText} ${theme.colors.shadow} ${theme.colors.activeShadow} font-bold`}
               onClick={() => navigate("/contact")}
             >
               Contact Me

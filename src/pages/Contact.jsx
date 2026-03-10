@@ -111,7 +111,7 @@ const Contact = () => {
           <button
             type="submit"
             disabled={loading}
-            className="mt-4 px-6 py-3 text-black/100 bg-yellow-400 border-2 border-black font-bold shadow-[2px_2px_0_0_#000] hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[4px_4px_0_0_#000] flex items-center gap-2 transition"
+            className="mt-4 px-6 py-3 cursor-pointer text-black/100 bg-yellow-400 border-2 border-black font-bold shadow-[2px_2px_0_0_#000] hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[4px_4px_0_0_#000] flex items-center gap-2 transition"
           >
             {loading ? "SENDING..." : "SEND MESSAGE"} <IoMdSend className="text-xl" />
           </button>

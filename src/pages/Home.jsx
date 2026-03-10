@@ -33,6 +33,7 @@ export default function Home() {
       {/* Page Sections */}
       <Hero />
       <AboutSection />
+      {/* <ProjectsSection /> */}
       <ProjectsSection />
       <PracticalLearningJourney />
       <CoolorsText text="Scroll. Explore. Connect. Let’s build something awesome" />

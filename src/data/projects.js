@@ -318,6 +318,79 @@ improvements: [
     live: "https://search-engine-weld-ten.vercel.app/",
   },
 
+
+   // Auth system 
+  {
+  slug: "auth-system",
+  title: "Authentication System",
+  image: "/images/auth.png",
+    
+    objective:
+      "I built a full production-grade authentication system by developing both a secure backend with Node.js and Express and a modern frontend using React. The goal was to understand how real-world authentication works end-to-end, including access and refresh token flows, session management, role-based authorization, email verification, and multi-device login handling. On the frontend, I implemented complete user flows such as signup, login, protected routes, and persistent sessions, ensuring seamless communication with the backend. This project helped me learn how to design scalable architectures, handle security best practices, and create a smooth user experience across devices.",
+
+    // SHORT OVERVIEW (for card + intro)
+   problem:
+    "In real-world applications, authentication alone is not enough. Systems require proper session management, role-based authorization, and secure user handling to control access effectively.",
+
+  solution:
+    "I created an advanced authentication system using sessions where users can log in and maintain their session securely. Role-based access control was implemented to restrict access based on user roles like admin and user. Sensitive routes are protected, and only authorized users can access them.",
+
+  tech: [
+  "Node.js",
+  "Express.js",
+  "MongoDB",
+  "React.js",
+  "Tailwind CSS",
+  "Nodemailer",
+  "Rate Limiting (Express Rate Limit)",
+],
+
+ features: [
+  "User registration and login system",
+  "JWT-based authentication using access and refresh tokens",
+  "Secure refresh token rotation for session management",
+  "Multi-device session handling and tracking",
+  "Logout functionality for a single device",
+  "Logout from all active devices",
+  "Email verification system for account activation",
+  "Password reset flow (forgot and reset password)",
+  "Secure password hashing using bcrypt",
+  "Rate limiting for API protection against abuse",
+  "Protected routes using authentication middleware",
+  "Cookie-based authentication support",
+],
+    // CHALLENGES & LEARNINGS
+   challenges: [
+  "Implementing refresh token rotation without breaking active sessions",
+  "Managing multi-device sessions and tracking user logins across devices",
+  "Handling secure cookie-based authentication and preventing token theft",
+  "Designing middleware for protecting routes and validating tokens",
+  "Integrating email verification and handling token expiry scenarios",
+  "Building a complete password reset flow with proper security checks",
+  "Ensuring password security using bcrypt and salting techniques",
+  "Applying rate limiting to prevent brute force and API abuse",
+  "Maintaining persistent authentication state across frontend and backend",
+  "Handling edge cases like token expiration, invalid tokens, and logout sync",
+],
+ 
+    // FUTURE IMPROVEMENTS
+improvements: [
+  "Implement OAuth authentication (Google, GitHub login)",
+  "Add two-factor authentication (2FA) for enhanced security",
+  "Introduce account lockout after multiple failed login attempts",
+  "Improve monitoring and logging for security events",
+  "Optimize performance for high-scale concurrent users",
+  "Add email notifications for suspicious login activity",
+  "Enhance session management with device-level insights",
+  "Implement API versioning for better scalability",
+  ],
+    level: "Full Stack",
+    code: "https://github.com/Lovekumar-10/Auth_System_Backend",
+    live: "https://auth-system-frontend-alpha.vercel.app/",
+  },
+
+
+
   // EduGenieAi
 
   {

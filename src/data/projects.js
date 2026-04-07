@@ -181,6 +181,9 @@ export const projects = [
   slug: "auth-system",
   title: "Authentication System",
   image: "/images/auth.png",
+    
+    objective:
+      "I built a full production-grade authentication system by developing both a secure backend with Node.js and Express and a modern frontend using React. The goal was to understand how real-world authentication works end-to-end, including access and refresh token flows, session management, role-based authorization, email verification, and multi-device login handling. On the frontend, I implemented complete user flows such as signup, login, protected routes, and persistent sessions, ensuring seamless communication with the backend. This project helped me learn how to design scalable architectures, handle security best practices, and create a smooth user experience across devices.",
 
     // SHORT OVERVIEW (for card + intro)
    problem:

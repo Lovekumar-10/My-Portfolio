@@ -1,4 +1,62 @@
 export const projects = [
+  
+
+
+
+// "ASA Cargo Logistics Website"
+
+{
+  slug: "asacargoLogistics",
+  title: "Cargo Logistics Website",
+  image: "/images/lovek.png",
+  client: "Paid",
+
+  // SHORT OVERVIEW
+  objective:
+    "A modern and responsive cargo logistics website built with React and Tailwind CSS. The platform provides a professional online presence for the logistics business with service information, contact options, and a clean user experience.",
+
+  // PROBLEM STATEMENT
+  problem:
+    "Many cargo and logistics businesses struggle to maintain a professional digital presence that clearly showcases their services and allows customers to connect easily through multiple platforms.",
+
+  // SOLUTION / APPROACH
+  solution:
+    "The website was developed using React and Tailwind CSS with a responsive and modern UI. It includes service sections, contact functionality, social media integration, and optimized layouts to improve customer engagement and accessibility across all devices.",
+
+   tech: ["React", "Tailwind", "React Icons", "EmailJS", "Google Maps Embed"],
+
+  features: [
+    "Modern responsive landing page",
+    "Professional cargo and logistics service showcase",
+    "Integrated contact form functionality",
+    "Social media integration",
+    "Mobile-friendly responsive design",
+    "Clean UI with reusable components",
+    "Fast and optimized frontend performance",
+  ],
+
+  // CHALLENGES & LEARNINGS
+  challenges: [
+    "Creating a professional logistics-focused UI",
+    "Maintaining responsiveness across devices",
+    "Structuring reusable React components",
+    "Optimizing layout and performance",
+    "Managing consistent styling using Tailwind CSS",
+  ],
+
+  // FUTURE IMPROVEMENTS
+  improvements: [
+    "Add shipment tracking system",
+    "Implement multilingual support",
+    "Enhance SEO optimization",
+    "Add analytics dashboard",
+    "Introduce animations and interactive UI elements",
+  ],
+
+  live: "https://www.asacargologistics.com/",
+},
+  
+  
   // Love Link website
   {
     slug: "NewLoveLink",
